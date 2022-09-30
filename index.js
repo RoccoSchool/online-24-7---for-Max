@@ -12,7 +12,7 @@ const env_files = {
 }
 const token = env_files.token
 
-if(token === '<your token here>'){
+if(token === 'enter discord token (Find youtube video to get user token'){
     const time = moment().format("kk:mm:ss")
     console.log(`${time} | ERROR | Invalid token was provided. Please replace "<your token here>" with your token!`)
     return
